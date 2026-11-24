@@ -3807,4 +3807,6 @@ Shutdown:
 ;  are never accidentally executed by the CPU as machine code instructions.
 ; ============================================================================
 ; #include "data.asm"
+
+%include "data.asm"
 %include "data.asm"
