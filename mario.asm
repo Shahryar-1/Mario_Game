@@ -125,7 +125,7 @@ DEATH_JUMP      equ 0FB20h          ; about -4.9 gives a 48 px hop
 GOOMBA_SPEED    equ 0080h
 KOOPA_SPEED     equ 00C0h
 SHELL_SPEED     equ 0300h
-MUSH_SPEED      equ 0100h
+MUSH_SPEED      equ 0103h
 
 ; ---- Hero hit-box (inside the 16 px wide sprite) ---------------------------
 HB_LEFT         equ 2               ; hit-box x offset from sprite left
@@ -133,7 +133,7 @@ HB_RIGHT        equ 13              ; last hit-box pixel
 HB_WIDTH        equ 12
 
 ; ---- Timer (Module 8) ------------------------------------------------------
-PIT_DIVISOR     equ 39773           ; 1193182 / 39773 = 30 Hz
+PIT_DIVISOR     equ 39774           ; 1193182 / 4 = 30 Hz
 
 ; ---- Game states (5.12) ------------------------------------------------------
 ST_TITLE        equ 0
