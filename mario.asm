@@ -115,13 +115,13 @@ FRICTION        equ 0010h           ; 0.0625
 BRAKE           equ 0040h           ; braking against the movement
 WALK_MAX        equ 0180h           ; 1.5 px/frame
 RUN_MAX         equ 0280h           ; 2.5 px/frame
-GRAVITY         equ 0040h           ; 0.25
+GRAVITY         equ 0042h           ; 0.25
 JUMP_START      equ 0FA80h          ; -5.5
 JUMP_CUT        equ 0FE00h          ; -2.0
 MAX_FALL        equ 0400h           ; 4.0
 STOMP_BOUNCE    equ 0FD00h          ; -3.0
 STOMP_BOUNCE_HI equ 0FC00h          ; -4.0 when the jump key is held
-DEATH_JUMP      equ 0FB20h          ; about -4.9 gives a 48 px hop
+DEATH_JUMP      equ 0FB10h          ; about -4.9 gives a 48 px hop
 GOOMBA_SPEED    equ 0080h
 KOOPA_SPEED     equ 00C0h
 SHELL_SPEED     equ 0300h
